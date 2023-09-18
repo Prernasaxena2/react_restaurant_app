@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react";
 
+import Restaurant from "./component/Basics/Restaurant";
+const myStyle = {
+  fontFamily: "Cormorant Garamond",
+  fontSize: "60px",
+  fontWeight: "300",
+  lineHeight: "60px",
+  margin: "10px",
+  textTransform: "capitalize",
+  textAlign: "center"
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <h1 style={myStyle}>Restaurant App</h1>
+
+      <Restaurant />
+
+    </>
   );
 }
 
