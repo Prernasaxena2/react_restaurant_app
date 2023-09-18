@@ -1,7 +1,18 @@
+import allupakoida from "./images/allupakoida.jpg";
+import maggi from './images/maggi.jpg';
+import chola from './images/chola.jpg';
+import corn from './images/corn.jpg';
+import pizza from './images/pizza.jpg';
+import nonvegthali from './images/nonvegthali.jpg';
+import sweet from './images/sweet.jpg';
+import samosa from './images/sweet.jpg';
+import rajmarice from './images/rajmarice.jpg';
+
 const Menu = [
     {
         id: 1,
-        image: "images/maggi.jpg",
+        // image: "images/maggi.jpg",
+        image: maggi,
         name: "maggi",
         category: "breakfast",
         price: "12₹",
@@ -11,8 +22,8 @@ const Menu = [
 
     {
         id: 2,
-        image: "images/allupakoida.jpg",
-        name: "allu pakoida",
+        image: allupakoida,
+        name: "Aalo Pakoda",
         category: "evening",
         price: "20₹",
         description:
@@ -20,7 +31,7 @@ const Menu = [
     },
     {
         id: 3,
-        image: "images/corn.jpg",
+        image: corn,
         name: "corn",
         category: "breakfast",
         price: "10₹",
@@ -29,7 +40,8 @@ const Menu = [
     },
     {
         id: 4,
-        image: "../images/chola.jpg",
+        // image: "../images/chola.jpg",
+        image: chola,
         name: "chola",
         category: "lunch",
         price: "50₹",
@@ -38,7 +50,7 @@ const Menu = [
     },
     {
         id: 5,
-        image: "../images/pizza.jpg",
+        image: pizza,
         name: "pizza",
         category: "evening",
         price: "80₹",
@@ -47,7 +59,7 @@ const Menu = [
     },
     {
         id: 6,
-        image: "/images/nonvegthali.jpg",
+        image: nonvegthali,
         name: "Non-Veg Thali",
         category: "dinner",
         price: "180₹",
@@ -56,7 +68,7 @@ const Menu = [
     },
     {
         id: 7,
-        image: "/images/sweet.jpg",
+        image: sweet,
         name: "Sweets",
         category: "dinner",
         price: "60₹",
@@ -65,7 +77,7 @@ const Menu = [
     },
     {
         id: 8,
-        image: "/images/rajmarice.jpg",
+        image: rajmarice,
         name: "Rajma Rice",
         category: "lunch",
         price: "60₹",
@@ -74,7 +86,7 @@ const Menu = [
     },
     {
         id: 9,
-        image: "/images/samosa.jpg",
+        image: samosa,
         name: "samosa",
         category: "evening",
         price: "10₹",
